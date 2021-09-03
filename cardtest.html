@@ -7,14 +7,14 @@
 
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <title>Document</title>
+    <title>Portfolio - Kc</title>
 
-    <style>
+    <!-- <style>
         body{
             background:wheat;
             overflow: hidden;
         }
-    </style>
+    </style> -->
 
 </head>
 <body>
@@ -50,12 +50,18 @@
             <li class="nav-pills">
             <a class="nav-link btn-outline-warning" href="#section3">CONTACT</a>
             </li>
+            <li class="nav-pills">
+            <a class="nav-link btn-outline-warning" href="#section4">TESTING</a>
+            </li>
+
             <a href="index.html">
+                
                 <button type="button">index</button>
             </a> 
         </ul>        
     </div>    
 </nav>
+
 
 <!--BORDER TOP SECTION 1-->
 <div id="section1"></div>
@@ -189,6 +195,218 @@
 <div class="container-fluid bg-secondary"style="height:10vh;">
     border bottom section 3
 </div>
+
+
+<!--section 4-->
+<!--BORDER TOP SECTION 4-->
+<div class="container-fluid bg-secondary"style="height:10vh;">
+    border top section 4
+</div>
+
+<!--MIDDLE SECTION 4-->
+<div id="section4"></div>
+    <div class="container-fluid"style="height:80vh;">
+    
+    <!--ATTEMPT AT NEW NAV-->
+            <button class="btn btn-dark btn-outline-warning border-0 col-2 offset-1" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseExample">
+                SIGN IN
+            </button>
+            <button class="btn btn-dark btn-outline-warning border-0 col-2" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseExample">
+                ABOUT ME
+            </button>
+            <button class="btn btn-dark btn-outline-warning border-0 col-2" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseExample">
+                PROJECTS
+            </button>
+            <button class="btn btn-dark btn-outline-warning border-0 col-2" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapseExample">
+                CONTACT
+            </button>
+            <button class="btn btn-dark btn-outline-warning border-0 col-2" type="button" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapseExample">
+                TESTING
+            </button>
+        
+        <!--LINK 1 - SIGN IN-->
+<div class="collapse" id="collapse1">
+    <div class="card card-body bg-warning"style="height:80vh;">
+        <!--TITLE-->
+        <div class="row">
+            <div class="card text-center bg-transparent mt-auto col-md-8 offset-md-2 shadow-lg">
+                <div class="card-body">
+                    <!--SMALL-->
+                    <p class="d-md-none d-sm-block display-4 text-center">WELCOME</p>
+                    <!--LG-->
+                    <p class="d-none d-md-block display-1 text-center">WELCOME</p>
+                </div>
+            </div>
+        </div>
+        <!--CONTENT-->
+
+        <!--CREATE SECOND ACCORDION FOR SMALL WITH 2 BUTTONS-->
+
+
+            <!--ACCORDION-->        
+        <div class="row row-content mt-5">
+            <div class="col-4 offset-2">
+                <div id="accordion">
+                    <div class="card bg-warning border-0">
+                        <div role="tab" class="card-header text-center">
+                            <h4>
+                                <a class="text-dark" data-toggle="collapse" data-target="#signIn">
+                                    <h3>SIGN IN</h3>
+                                </a>
+                            </h4>
+                            <div class="collapse" id="signIn" data-parent="#accordion">
+                                <div class="card">
+                                    <h3 class="card-header bg-dark text-white">Welcome</h3>
+                                    <div class="card-body">
+                                        <dl class="row">
+                                            <dt class="col"><p>Sign in info below, form and required check to continue</p>
+                                            </dt>
+                                        </dl>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card bg-warning border-0">
+                    <div  class="card-header text-center">
+                        <h4>
+                            <a class="text-dark" href="#section1">
+                                <h3>CONTINUE AS GUEST</h3>
+                            </a>
+                        </h4>
+                    </div>
+                </div>
+            </div>   
+            <!--ACCORDION-->
+            
+        </div>
+    </div>
+</div>
+        <!--LINK 2 - ABOUT ME-->
+          <div class="collapse" id="collapse2">
+            <div class="card card-body bg-warning"style="height:80vh;">
+                <!--TITLE-->
+                <div class="row row-content">
+                    <div class="card text-center bg-transparent mt-auto col-md-8 offset-md-2 shadow-lg">
+                        <div class="card-body">
+                            <!--SMALL-->
+                            <p class="d-md-none d-sm-block display-4 text-center">ABOUT ME</p>
+                            <!--LG-->
+                            <p class="d-none d-md-block display-1 text-center">ABOUT ME</p>
+                        </div>
+                    </div>
+                </div>
+                <!--CONTENT-->
+
+
+
+            </div>
+          </div>
+          <!--LINK 3 - PROJECTS -->
+          <div class="collapse" id="collapse3">
+            <div class="card card-body bg-warning"style="height:80vh;">
+                <!--TITLE-->
+                <div class="row row-content">
+                    <div class="card text-center bg-transparent mt-auto col-md-8 offset-md-2 shadow-lg">
+                        <div class="card-body">
+                            <!--SMALL-->
+                            <p class="d-md-none d-sm-block display-4 text-center">PROJECTS</p>
+                            <!--LG-->
+                            <p class="d-none d-md-block display-1 text-center">PROJECTS</p>
+                        </div>
+                    </div>
+                </div>
+                <!--CONTENT-->
+
+
+
+            </div>
+          </div>
+          <!--LINK 4 - CONTACT-->
+          <div class="collapse" id="collapse4">
+            <div class="card card-body bg-warning"style="height:80vh;">
+                <!--TITLE-->
+                <div class="row row-content">
+                    <div class="card text-center bg-transparent mt-auto col-md-8 offset-md-2 shadow-lg">
+                        <div class="card-body">
+                            <!--SMALL-->
+                            <p class="d-md-none d-sm-block display-4 text-center">CONTACT</p>
+                            <!--LG-->
+                            <p class="d-none d-md-block display-1 text-center">CONTACT</p>
+                        </div>
+                    </div>
+                </div>
+                <!--CONTENT-->
+                <div class="row row-content">
+                    <div class="container mt-md-5 mt-2">
+                        <form>
+                            <input class="col-sm-6 offset-md-3 text-center mb-3 form-control" type="text" placeholder="NAME:">
+                            <input class="col-sm-6 offset-md-3 text-center mb-3 form-control" type="text" placeholder="EMAIL:">
+                            <textarea class="col-sm-6 offset-md-3 text-center mb-3 form-control" rows="4" placeholder="COMMENT:"></textarea>
+                            <input class="col" type="checkbox" required>
+                            <button type="submit" class="col-2 offset-5 btn btn-outline-light text-dark mb-5 shadow">SEND</button>
+                        </form>
+                        <!--SOCIAL LINKS-->
+                        <div class="row justify-content-center text-center" style="font-size: 10px;">
+                            <!--TWITTER-->
+                            <div class="card bg-transparent shadow border-light mx-3" style="width: 10vh; height: 15vh;">
+                                <div class="card-body">
+                                    <i class="fa fa-twitter-square fa-5x"></i>
+                                </div>
+                                <div class="card-footer">Twitter</div>
+                            </div>
+                            <!--FACEBOOK-->
+                            <div class="card bg-transparent shadow border-light mx-3" style="width: 10vh; height: 15vh;">
+                                <div class="card-body">
+                                    <i class="fa fa-facebook-square fa-5x"></i>
+                                </div>
+                                <div class="card-footer">Facebook</div>
+                            </div>
+                            <!--INSTAGRAM-->
+                            <div class="card bg-transparent shadow border-light mx-3" style="width: 10vh; height: 10vh;">
+                                <div class="card-body">
+                                    <i class="fa fa-instagram fa-5x"></i>
+                                </div>                    
+                                
+                            </div>
+                        </div>
+                                  
+                    </div>
+                </div>
+
+            </div>
+          </div>
+          <!--LINK 5 - TESTING PAGE-->
+          <div class="collapse" id="collapse5">
+            <div class="card card-body bg-warning"style="height:80vh;">
+                <!--TITLE-->
+                <div class="row row-content">
+                    <div class="card text-center bg-transparent mt-auto col-md-8 offset-md-2 shadow-lg">
+                        <div class="card-body">
+                            <!--SMALL-->
+                            <p class="d-md-none d-sm-block display-4 text-center">TEST PAGE</p>
+                            <!--LG-->
+                            <p class="d-none d-md-block display-1 text-center">TEST PAGE</p>
+                        </div>
+                    </div>
+                </div>
+                <!--CONTENT-->
+
+
+                
+            </div>
+          </div>
+    </div>
+</div>
+
+<!--BORDER BOTTOM SECTION 4-->
+<div class="container-fluid bg-secondary"style="height:10vh;">
+    border bottom section 4
+</div>
+
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
